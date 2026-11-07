@@ -1,0 +1,31 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{ page.summary | escape }}">
+<title>{{ page.title | escape }} | Jose de Jesus Castillo</title>
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+{% include navigation.html %}
+<main id="main">
+<section class="section section-alt">
+<div class="container">
+<p class="eyebrow dark">PROJECT LAB / {{ page.status | upcase }}</p>
+<h1 class="project-title">{{ page.title | escape }}</h1>
+<p class="section-lead">{{ page.summary | escape }}</p>
+<div class="chips">{% for skill in page.skills %}<span>{{ skill | escape }}</span>{% endfor %}</div>
+<div class="project-body">{{ content }}</div>
+<a class="text-link" href="{{ '/' | relative_url }}#projects">← Back to projects</a>
+</div>
+</section>
+</main>
+{% include footer.html %}
+<script src="{{ '/script.js' | relative_url }}"></script>
+</body>
+</html>
