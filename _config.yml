@@ -1,0 +1,23 @@
+title: "Jose de Jesus Castillo | Cloud Infrastructure · DevOps · Data Engineering"
+description: "Cloud Infrastructure, DevOps, and Data Engineering portfolio"
+url: "https://josedjc-dev.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /projects/:name/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github
+  - .gitignore
