@@ -4,6 +4,10 @@ Public portfolio: https://josedjc-dev.github.io
 
 This repository is a **Jekyll static site** with a **GitHub Actions CI/CD pipeline**. It showcases established experience in cloud infrastructure, enterprise architecture, and DevOps while documenting emerging data engineering and MLOps skills.
 
+## Agentic development disclosure
+
+I direct this portfolio project and decide what goes live. I use OpenAI Codex to assist with code, automation, and documentation. GitHub commits and pull requests show how the work evolved, and GitHub Actions records the build and deployment checks.
+
 ## Architecture
 
 - **Source:** Jekyll pages, Liquid templates, Markdown project collection, CSS, and JavaScript.
