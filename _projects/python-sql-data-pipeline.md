@@ -2,7 +2,7 @@
 title: "Python & SQL Data Pipeline"
 summary: "A small ETL workflow demonstrating ingestion, transformation, validation, and documentation."
 status: "Planned"
-order: 2
+order: 3
 skills:
   - Python
   - SQL

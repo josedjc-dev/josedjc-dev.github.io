@@ -2,7 +2,7 @@
 title: "Azure Infrastructure as Code"
 summary: "A reproducible cloud infrastructure deployment with documentation and automation."
 status: "Planned"
-order: 1
+order: 2
 skills:
   - Azure
   - Terraform
